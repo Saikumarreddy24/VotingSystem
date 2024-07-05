@@ -1,0 +1,19 @@
+{
+    "name": "saikumarreddy24/votingsystem/votingsystem",
+    "description": "\"A simple voting system for web applications.\"",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Saikumarreddy24\\Votingsystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thangirala Sai Kumar Reddy",
+            "email": "saikumarreddythangirala24@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
