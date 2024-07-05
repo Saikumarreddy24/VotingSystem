@@ -18,5 +18,8 @@ jobs:
         php-version: '7.4'  # or your required PHP version
     - name: Install dependencies
       run: composer install
+      working-directory: ./
     - name: Run tests
-      run: phpunit
+      run: vendor/bin/phpunit
+      working-directory: ./
+
