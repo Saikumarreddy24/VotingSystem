@@ -12,15 +12,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'  # or your required PHP version
+        php-version: '7.4'
+
     - name: Install dependencies
       run: composer install
-      working-directory: ./
+
     - name: Run tests
       run: vendor/bin/phpunit
-      working-directory: ./
-
-
